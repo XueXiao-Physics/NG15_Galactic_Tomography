@@ -1,5 +1,5 @@
 import numpy as np
-from gw_from_binary_测试2_副本 import *
+from gw_from_binary import *
 from joblib import Parallel, delayed
 from joblib_progress import joblib_progress
 import os
