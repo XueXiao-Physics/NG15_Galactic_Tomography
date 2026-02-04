@@ -12,7 +12,7 @@ rho_all, q_all, z_all = np.load("edgesholo_M40_Q21_Z22.npy", allow_pickle=True)
 dN = np.load("ndenholo_M40_Q21_Z22.npy", allow_pickle=True)
 
 # —— 2) Weighted spectrum & e0bar grid —— #
-spec = np.load("alter1_e0均匀_dEdfgw_num_nocut.npz", allow_pickle=True)
+spec = np.load("alter1_e0_dEdfgw_num_nocut.npz", allow_pickle=True)
 dEdfgw_mesh = spec["new_mesh"]      # (18,19,20,39,20,40)
 rho_all     = spec["rho_mesh"]      # (18,)
 gamma_all   = spec["gamma_mesh"]    # (19,)
